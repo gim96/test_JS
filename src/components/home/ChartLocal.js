@@ -16,7 +16,7 @@ export default class ChartLocal extends Component{
                         
                             {
 
-                                label:'population',
+                                label:'All cases',
                                 borderWidth: 1,
                                 data:
                                     [

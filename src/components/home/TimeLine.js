@@ -77,7 +77,7 @@ export default class TimeLine extends Component {
          
          />
          <br></br>
-         <center>Currunt Situation</center>
+         <br></br>
       
 
         
