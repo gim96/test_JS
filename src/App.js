@@ -6,7 +6,7 @@ class App extends Component{
 
   render(){
     return(
-      <h1>hey  there</h1>
+      <h1>Gim kelum</h1>
     );
   }
 }
