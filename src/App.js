@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import Myapp from './components/home/Myapp';
 import Local from './components/home/Local';
 import LocalDetails from './components/home/LocalDetails';

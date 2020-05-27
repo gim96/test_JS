@@ -67,9 +67,12 @@ export default class Local extends React.Component {
           </tr>
         </table>
         
+        <br></br>
+        
+        <br></br>
         <table align='center' width='60%'>
           <tr>
-            <td>
+            <td >
             <ChartLineLocal 
 
 l_newCases={this.state.person.data.local_new_cases} 
@@ -82,7 +85,8 @@ l_rec={this.state.person.data.local_recovered}
           </tr>
         </table>
        
-      
+        <br></br>
+         <br></br>
         <ChartLocal 
 
             l_newCases={this.state.person.data.local_new_cases} 
@@ -91,6 +95,9 @@ l_rec={this.state.person.data.local_recovered}
             l_rec={this.state.person.data.local_recovered} 
         
         />
+        <br></br>
+        <br></br>
+
       </div>
     );
   }

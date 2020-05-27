@@ -27,7 +27,7 @@ export default class Chart extends Component{
                                       
                                     ],
 
-                                backgroundColor:['rgb(0, 191, 255)','rgb(0, 64, 255)','rgb(255, 0, 64)']
+                                backgroundColor:['rgb(255, 193, 7 )','rgb(211, 47, 47 )','rgb(139, 195, 74 )']
 
                             }
                    

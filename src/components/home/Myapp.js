@@ -89,7 +89,8 @@ export default class Myapp extends Component {
         </table>
        
          <br></br>
-         <center>Currunt Situation</center>
+         <br></br>
+        
         <Chart 
           
 
@@ -99,7 +100,8 @@ export default class Myapp extends Component {
           g_rec={this.state.person.data.global_recovered} 
 
         />
-
+        <br></br>
+        <br></br>
         
       </div>
     );

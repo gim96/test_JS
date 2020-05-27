@@ -28,13 +28,15 @@ export default class Footer extends Component {
 
     return (
      
-        <div align='center'>
+        <div align='center' >
         <br></br>
         <br></br>
         
         Last Update : {this.state.person.data.update_date_time} <br></br>
         Source :<a href='https://arimaclanka.com/'> www.arimac.com</a>
         <br></br>
+       
+
         </div>
         
        
