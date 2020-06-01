@@ -59,7 +59,7 @@ export default class TimeLine extends Component {
            day_8={this.state.person.data.daily_pcr_testing_data[70].date}
            day_9={this.state.person.data.daily_pcr_testing_data[80].date}
            day_10={this.state.person.data.daily_pcr_testing_data[90].date}
-           day_11={this.state.person.data.daily_pcr_testing_data[98].date}
+           day_11={this.state.person.data.daily_pcr_testing_data[100].date}
          
            count_1={this.state.person.data.daily_pcr_testing_data[0].count} 
            count_2={this.state.person.data.daily_pcr_testing_data[10].count} 
@@ -71,7 +71,7 @@ export default class TimeLine extends Component {
            count_8={this.state.person.data.daily_pcr_testing_data[70].count} 
            count_9={this.state.person.data.daily_pcr_testing_data[80].count} 
            count_10={this.state.person.data.daily_pcr_testing_data[90].count} 
-           count_11={this.state.person.data.daily_pcr_testing_data[98].count} 
+           count_11={this.state.person.data.daily_pcr_testing_data[100].count} 
          
          
          

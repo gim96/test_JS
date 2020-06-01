@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Bar} from 'react-chartjs-2';
 
 
-export default class CHartTime extends Component{
+export default class ChartTime extends Component{
 
     constructor(props){
         super(props);
@@ -37,7 +37,7 @@ export default class CHartTime extends Component{
                                 borderWidth: 1,
                                 data:
                                     [
-                                        this.props.count_1,
+                                        this.props.count_2,
                                         this.props.count_2,
                                         this.props.count_3,
                                         this.props.count_4,
