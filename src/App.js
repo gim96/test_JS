@@ -91,7 +91,7 @@ class App extends Component{
           </tr>
           <tr>
           <td colSpan='2'>
-            <TimeLine  />
+         <TimeLine />
           </td>
           </tr>
 

@@ -4,29 +4,24 @@ import {Bar} from 'react-chartjs-2';
 
 export default class ChartTime extends Component{
 
+    
     constructor(props){
         super(props);
-        
+
+        let pcr_data = [];
+
+        for (let i = 0; i < this.props.pcr_data.length; i += 10) {
+          pcr_data.push({
+            date: this.props.pcr_data[i].date,
+            count: this.props.pcr_data[i].count,
+            backgroundColor: "rgb(214,212,228)",
+          });
+        }
         this.state = {
 
             charData:{
 
-                    labels:[
-                        
-                        this.props.day_1,
-                        this.props.day_2,
-                        this.props.day_3,
-                        this.props.day_4,
-                        this.props.day_5,
-                        this.props.day_6,
-                        this.props.day_7,
-                        this.props.day_8,
-                        this.props.day_9,
-                        this.props.day_10,
-                        this.props.day_11,
-                        
-
-                    ],
+                labels: pcr_data.map((data) => data.date),
                         
 
                     datasets:[
@@ -35,40 +30,9 @@ export default class ChartTime extends Component{
 
                                 label:'Active',
                                 borderWidth: 1,
-                                data:
-                                    [
-                                        this.props.count_2,
-                                        this.props.count_2,
-                                        this.props.count_3,
-                                        this.props.count_4,
-                                        this.props.count_5,
-                                        this.props.count_6,
-                                        this.props.count_7,
-                                        this.props.count_8,
-                                        this.props.count_9,
-                                        this.props.count_10,
-                                        this.props.count_11,
-                                       
-                                        
-                                        
-                                      
-                                      
-                                    ],
+                                data: pcr_data.map((data) => data.count),
 
-                                backgroundColor:[
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                    'rgb(214,212,228)',
-                                ]
+                                backgroundColor: pcr_data.map((data) => data.backgroundColor),
 
                             }
                    

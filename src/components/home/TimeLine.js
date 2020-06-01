@@ -49,30 +49,7 @@ export default class TimeLine extends Component {
         
          <ChartTime 
          
-           day_1={this.state.person.data.daily_pcr_testing_data[0].date}
-           day_2={this.state.person.data.daily_pcr_testing_data[10].date}
-           day_3={this.state.person.data.daily_pcr_testing_data[20].date}
-           day_4={this.state.person.data.daily_pcr_testing_data[30].date}
-           day_5={this.state.person.data.daily_pcr_testing_data[40].date}
-           day_6={this.state.person.data.daily_pcr_testing_data[50].date}
-           day_7={this.state.person.data.daily_pcr_testing_data[60].date}
-           day_8={this.state.person.data.daily_pcr_testing_data[70].date}
-           day_9={this.state.person.data.daily_pcr_testing_data[80].date}
-           day_10={this.state.person.data.daily_pcr_testing_data[90].date}
-           day_11={this.state.person.data.daily_pcr_testing_data[100].date}
-         
-           count_1={this.state.person.data.daily_pcr_testing_data[0].count} 
-           count_2={this.state.person.data.daily_pcr_testing_data[10].count} 
-           count_3={this.state.person.data.daily_pcr_testing_data[20].count} 
-           count_4={this.state.person.data.daily_pcr_testing_data[30].count} 
-           count_5={this.state.person.data.daily_pcr_testing_data[40].count} 
-           count_6={this.state.person.data.daily_pcr_testing_data[50].count} 
-           count_7={this.state.person.data.daily_pcr_testing_data[60].count} 
-           count_8={this.state.person.data.daily_pcr_testing_data[70].count} 
-           count_9={this.state.person.data.daily_pcr_testing_data[80].count} 
-           count_10={this.state.person.data.daily_pcr_testing_data[90].count} 
-           count_11={this.state.person.data.daily_pcr_testing_data[100].count} 
-         
+           pcr_data={this.state.person.data.daily_pcr_testing_data}
          
          
          />
