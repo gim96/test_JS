@@ -8,20 +8,22 @@ export default class ChartTime extends Component{
     constructor(props){
         super(props);
 
-        let pcr_data = [];
+       
+        let pcr_datax = [];
 
         for (let i = 0; i < this.props.pcr_data.length; i += 10) {
-          pcr_data.push({
+          pcr_datax.push({
             date: this.props.pcr_data[i].date,
             count: this.props.pcr_data[i].count,
             backgroundColor: "rgb(214,212,228)",
           });
         }
+      
         this.state = {
 
             charData:{
 
-                labels: pcr_data.map((data) => data.date),
+                labels: pcr_datax.map((data) => data.date),
                         
 
                     datasets:[
@@ -30,9 +32,9 @@ export default class ChartTime extends Component{
 
                                 label:'Active',
                                 borderWidth: 1,
-                                data: pcr_data.map((data) => data.count),
+                                data: pcr_datax.map((data) => data.count),
 
-                                backgroundColor: pcr_data.map((data) => data.backgroundColor),
+                                backgroundColor: pcr_datax.map((data) => data.backgroundColor),
 
                             }
                    

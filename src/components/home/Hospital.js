@@ -35,7 +35,7 @@ export default class Hospital extends React.Component {
             <th scope="col"> Cumulative Local</th>
             <th scope="col"> Cumulative Foreign</th>
             <th scope="col"> Treatment Local</th>
-            <th scope="col"> Cumulative Foreign</th>
+            <th scope="col"> Treatment Foreign</th>
         </tr>
         {
        

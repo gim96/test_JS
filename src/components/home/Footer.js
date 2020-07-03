@@ -19,6 +19,10 @@ export default class Footer extends Component {
           </tr>
           <tr>
             <td align='center'>Source :<a href='https://arimaclanka.com/'> www.arimac.com</a>  </td>
+           
+          </tr>
+          <tr>
+          <td align='center'>Developer : Gim kelum  </td>
           </tr>
         </table></center>
      

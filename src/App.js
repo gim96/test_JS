@@ -51,7 +51,7 @@ class App extends Component{
       <br></br>
 
      
-      <table align="center" cellPadding="5" width='90%' >
+      <table align="center" cellPadding="5" width='85%' >
        
        <tr>
       
@@ -96,7 +96,12 @@ class App extends Component{
           </tr>
 
           <tr>
-          <td colSpan='2'><Hospital /></td>
+          <td colSpan='2'><Hospital
+
+            hos={this.state.person.data.hospital_data}
+            hos_data={this.state.person.data.hospital_data.hospital}
+          
+          /></td>
           </tr>
          
         <tr>
