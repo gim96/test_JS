@@ -22,7 +22,7 @@ export default class Footer extends Component {
            
           </tr>
           <tr>
-          <td align='center'>Developer : Gim kelum  </td>
+          <td align='center'>----------Developer : Gim kelum----------</td>
           </tr>
         </table></center>
      
